@@ -3,6 +3,7 @@ var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 var button = document.getElementById("random");
+var k = 0;
 
 function changeBackground(){
 	body.style.background = 
